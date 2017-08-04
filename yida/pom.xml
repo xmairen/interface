@@ -33,6 +33,13 @@
 	    <version>6.9.10</version>
 	    <scope>test</scope>
 	</dependency>
+	
+	<dependency>
+    <groupId>com.newtouch.javacsv</groupId>
+    <artifactId>javacsv</artifactId>
+    <version>1.0</version>
+    </dependency>
+    
   </dependencies>
   <build>
   <pluginManagement>
@@ -42,21 +49,15 @@
 		        <version>2.12.4</version>
 		        <configuration>
 		        <!--  
-	                 <suiteXmlFiles>
-	                    <suiteXmlFile>testng.xml</suiteXmlFile>      
-	                </suiteXmlFiles> 
+	                <suiteXmlFiles>
+	                    <suiteXmlFile>testng.xml</suiteXmlFile>
+	                </suiteXmlFiles>
 	             -->
-	                 <!-- 此句为让maven用testng。xml配置执行 -->
-	                 
-	                <includes>
-                    	<include>**/test**.java</include>
-                	</includes>
-                	<!-- 此句为让maven执行使用插件批量执行 -->
-                	 
-                	<span style="color:#009900;"><forkMode>always</forkMode>
-                	<parallel>methods</parallel>  
-          			<threadCount>4</threadCount></span> 
-          			<!-- 使用插件本身来控制线程，forkMode值pretest每个新进程、once并发执行所有线程、always配置多线程 -->
+	             <!-- 此处用testng.xml配置文件执行 -->
+	            <includes>  
+                	<include>**/test*.java</include> 
+           	 	</includes>
+           	 	<!-- 此处用surefire配置文件执行 -->
            	 	</configuration>
 		      </plugin>
 		   </plugins>

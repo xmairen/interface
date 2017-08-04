@@ -3,8 +3,8 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test" preserve-order="false">
     <classes>
-      <class name="com.newtouch.yida.testBaidu"/>
       <class name="com.newtouch.yida.testBing"/>
+      <class name="com.newtouch.yida.testLogin"/>
     </classes>
   </test> <!-- Command line test -->
 </suite> <!-- Failed suite [Command line suite] -->
