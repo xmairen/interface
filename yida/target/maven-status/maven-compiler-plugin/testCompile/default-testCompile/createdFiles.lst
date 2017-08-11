@@ -1,5 +1,6 @@
 com\newtouch\yida_data\readCSV.class
 com\newtouch\yida_data\loginData.class
 com\newtouch\yida\AppTest.class
+com\newtouch\yida\testLogin.class
 com\newtouch\yida_action\loginAction.class
 com\newtouch\yida\testBing.class

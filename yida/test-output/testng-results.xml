@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18193" started-at="2017-08-04T08:33:08Z" finished-at="2017-08-04T08:33:26Z">
+  <suite name="Default suite" duration-ms="61388" started-at="2017-08-11T09:26:15Z" finished-at="2017-08-11T09:27:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18193" started-at="2017-08-04T08:33:08Z" finished-at="2017-08-04T08:33:26Z">
-      <class name="com.newtouch.yida.testBaidu">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.newtouch.yida.testBaidu@72974691]" name="setUp" is-config="true" duration-ms="6284" started-at="2017-08-04T16:33:08Z" finished-at="2017-08-04T16:33:14Z">
+    <test name="Default test" duration-ms="61388" started-at="2017-08-11T09:26:15Z" finished-at="2017-08-11T09:27:16Z">
+      <class name="com.newtouch.yida.testAddUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.newtouch.yida.testAddUser@3e6fa38a]" name="setUp" is-config="true" duration-ms="6598" started-at="2017-08-11T17:26:15Z" finished-at="2017-08-11T17:26:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase()[pri:0, instance:com.newtouch.yida.testBaidu@72974691]" name="testCase" duration-ms="11065" started-at="2017-08-04T16:33:14Z" finished-at="2017-08-04T16:33:25Z">
+        <test-method status="PASS" signature="testCase()[pri:0, instance:com.newtouch.yida.testAddUser@3e6fa38a]" name="testCase" duration-ms="54071" started-at="2017-08-11T17:26:22Z" finished-at="2017-08-11T17:27:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtouch.yida.testBaidu@72974691]" name="tearDown" is-config="true" duration-ms="820" started-at="2017-08-04T16:33:25Z" finished-at="2017-08-04T16:33:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtouch.yida.testAddUser@3e6fa38a]" name="tearDown" is-config="true" duration-ms="696" started-at="2017-08-11T17:27:16Z" finished-at="2017-08-11T17:27:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.newtouch.yida.testBaidu -->
+      </class> <!-- com.newtouch.yida.testAddUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
