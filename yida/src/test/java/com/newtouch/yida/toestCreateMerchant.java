@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import com.newtouch.yida_data.*;
 
 
-public class testMemberExport {
+public class toestCreateMerchant {
 	private WebDriver driver;
 	private String baseUrl;
 	
@@ -21,7 +21,7 @@ public class testMemberExport {
 	public void setUp() throws Exception {
 //		System.setProperty("webdriver.firefox.bin", "D:\\Mozilla Firefox\\Mozilla Firefox\\firefox.exe");
 //		driver = new FirefoxDriver();
-		System.setProperty("webdriver.chrome.bin", "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+//		System.setProperty("webdriver.chrome.bin", "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 		driver = new ChromeDriver();
 		baseUrl = "http://unified.xanewtouch.cn/park/login.html";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -29,9 +29,10 @@ public class testMemberExport {
 	@Test
 	public void testCase() throws Exception{
 		driver.get(baseUrl);
+		driver.manage().window().maximize();
 		loginData.login(driver);
 		Thread.sleep(2000);
-		memberExportData.memberExportData(driver);
+		createMerchantData.create(driver);
 		loginData.loginOut(driver);
 
 	}

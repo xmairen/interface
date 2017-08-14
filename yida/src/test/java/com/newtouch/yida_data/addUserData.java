@@ -35,6 +35,9 @@ public class addUserData {
 		selDepartment.selectByIndex(2);//下拉框选择所属部门
 		addUserAction.remarks(driver).sendKeys("笑嘻嘻的备注信息");//输入备注信息
 		addUserAction.submit(driver).click();//点击完成
+		Thread.sleep(2000);
+//		addUserAction.delete(driver).click();//点击删除
+		Thread.sleep(2000);
 		
 		switchFrameAction.driverOut(driver);//切换外部Frame
 		

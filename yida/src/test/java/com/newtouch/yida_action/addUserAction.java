@@ -77,6 +77,17 @@ public class addUserAction {
 		return element;
 	}//点击提交
 	
+	public static WebElement delete(WebDriver driver){
+		element = driver.findElement(By.xpath("/html/body/div/section/div/div/div/div[3]/div/div[2]/div/div[1]/table/tbody/tr[1]/td[6]/div/button[3]"));
+		return element;
+	}//点击删除
+	
+	public static WebElement deleteConfirm(WebDriver driver){
+		element = driver.findElement(By.xpath("/html/body/div[2]/div/div/div[3]/button[2]"));
+		return element;
+	}//点击确定
+
+			
 	
 	
 	
